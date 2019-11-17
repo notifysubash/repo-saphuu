@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import TopNav from './components/TopNav'
 function App() {
   return (
-    <div className="App">
-      <h1>This is my saphuu</h1>
-    </div>
+    <TopNav></TopNav>
   );
 }
 
