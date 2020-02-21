@@ -4,12 +4,12 @@ import {Nav, Navbar, NavDropdown, Form, Button, FormControl} from 'react-bootstr
 function TopNav(){
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand href="#home">Saphuu</Navbar.Brand>
+        <Navbar.Brand href="/">Saphuu</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="/apitester">Api Tester</Nav.Link>
+            <Nav.Link href="/upload">Upload Files</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

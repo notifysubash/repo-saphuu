@@ -20,3 +20,46 @@
 .App-link {
   color: #09d3ac;
 }
+.PlaceHolder{
+  background-color: #576574;
+  width: 100%;
+  height: 15em;
+  
+}
+.PlaceHolderInnerLeft{
+  float: left;
+  height: 100%;
+  width: auto; 
+  padding: 1.5em;
+}
+.BgImage{
+  background-image: url('https://drive.google.com/uc?id=1ddD8KkZM-WEAL0ECFw2g8chcVddRq1Jl');
+	background-position:center;
+	background-repeat:no-repeat;
+  background-size:cover;
+  width: 100%;
+
+
+}
+
+.BgColorImperialPrimer{
+  background-color:#222f3e;
+}
+.BgColorFuelTown{
+  background-color:#576574;
+}
+.BgColorLightSilver{
+  background-color: #f1f2f6;
+}
+.BgColorWhite{
+  background-color: #fff;
+}
+.TextWhite{
+  color: #fff;
+}
+.TextPastelRed{
+  color:#ff6b6b;
+}
+.Clear{
+  clear: both;
+}
